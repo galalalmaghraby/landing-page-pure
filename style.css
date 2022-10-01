@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 /* navbar */
 .container-fluid .navbar {
     padding: 10px 30px;
