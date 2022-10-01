@@ -345,7 +345,7 @@ footer p{
     .slider .slide .item .circle{
         width: 80px;
         height: 80px;
-        left: 57%;
+        left: 50%;
     }
     .slider .slide .item p{
         white-space: nowrap;
@@ -391,13 +391,13 @@ footer p{
         z-index: 9999;
     }
     .slider .slide .item{
-        width: 300px;
-        margin: 0px 100px;
+        width: 200px;
+        margin: 0px 50px;
     }
     .slider .slide .item .circle{
         width: 80px;
         height: 80px;
-        left: 57%;
+        left: 50%;
     }
     .slider .slide .item p{
         white-space: nowrap;
