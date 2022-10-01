@@ -1,0 +1,408 @@
+/* navbar */
+.container-fluid .navbar {
+    padding: 10px 30px;
+    background-color: #352F44    !important;
+
+}
+.container-fluid .navbar ul li a {
+    color: white !important;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.container-fluid .navbar  a p{
+    color: white !important;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0px;
+}
+/* main */
+.main{
+    min-height: 100vh;
+    background-size: 100% 100%;
+}
+main.main{
+    background-image: url('assets/bg-1.jpg');
+    display: flex;
+    padding: 0px 100px;
+    color: white;
+    align-items: center;
+    min-height:87vh !important;
+}
+main div{
+    text-align: center;
+}
+main div h1,.about .content h2{
+    margin: 50px 0px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/* About */
+.about{
+    min-height: 85vh;
+    background-image: url('assets/bg2.png');
+}
+.title{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    color: #DBD8E3     ;
+    text-transform: capitalize;
+    
+}
+.about h1.title{
+    padding: 50px 0px 0px;
+}
+.about div.d-flex{
+    flex-wrap: wrap;
+}
+.about img{
+    object-fit: contain;
+    height: 90%;
+    width: 100%;   
+}
+.about .content{
+    color: #DBD8E3     ;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.about .content h2{
+    margin-top: 100px;
+    font-size: 25px;
+}
+.about .content p{
+    width: 70%;
+    line-height: 1.5;
+}
+/*choose */
+.choose,.services{
+    background-color: #352F44      ;
+    min-height: 75vh;
+}
+.choose div.d-flex ,.services div.d-flex{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.choose div.d-flex .item,.services div.d-flex .item{
+    background-color: #2A2438   ;
+    width: 280px;
+    height: 300px;
+    box-shadow: 0px 0px 8px 0px black;
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+    color: #DBD8E3;
+    padding-bottom: 25px;
+}
+.choose div.d-flex .item .circle,.services div.d-flex .item .circle{
+    width: 150px;
+    height: 150px;
+    background-color: #5C5470;
+    border-radius: 50%;
+    position: absolute;
+    top:-25px;
+    right: -25px;
+}
+.choose div.d-flex .item .parent-img,.services div.d-flex .item .parent-img{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    z-index: 2;
+}
+.choose div.d-flex .item img,.services div.d-flex .item img{
+    width: 35%;
+    height: 50%;
+    object-fit: contain;
+    z-index: 2;
+}
+.choose div.d-flex .item h3,.services div.d-flex .item h3{
+    font-size: 23px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.choose div.d-flex .item p,.services div.d-flex .item p{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 2;
+}
+/* services */
+.services {
+    background-image: url('assets/bg-3.png');
+}
+.services .item{
+    background-color: #5C5470 !important;
+}
+.services .item .circle{
+    background-color: #2A2438 !important;
+}
+/* contact */
+.contact{
+    background-color: #2A2438;
+    min-height: 75vh;
+}
+.contact div.d-flex{
+    flex-wrap: wrap;
+}
+.contact div.col-xl-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact div.col-xl-6 input{
+    margin: 10px ;
+    padding: 0px 10px;
+    border: 3px solid white;
+    outline: none !important;
+    background-color: initial;
+    height: 70px;
+    width: 60%;
+    border-radius: 6px;
+    box-shadow: 0px 0px 8px 0px black;
+    color: white;
+}
+.contact div.col-xl-6 input::placeholder{
+    font-size: 20px;
+    color: white;
+}
+#message{
+    height: 160px;
+}
+.contact div.col-xl-6  button{
+    margin: 10px;
+    height: 50px;
+    border-radius: 16px;
+    background-color: initial;
+    width: 200px;
+    border: none;
+    box-shadow: 0px 0px 8px 0px black;
+    color: white;
+    font-size: 25px;
+}
+.contact div.col-xl-6  button:hover{
+    background-color: white;
+    color: #2A2438;
+    transition: .5s linear;
+    box-shadow: none;
+}
+/* reviews */
+.reviews{
+    min-height: 85vh;
+    background-color: #352F44;
+    
+}
+.slider{
+    position: relative;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 0px;
+}
+.paraent-slide{
+    width: 840px;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+
+}
+.slider i{
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transform: translate(-50%,-50%);
+
+}
+.slider i.fa-chevron-right{
+    right: 10%;
+}
+.slider i.fa-chevron-left{
+    left: 10%;
+}
+.slider .slide{
+    height: 200px;
+    display: flex;
+    width: fit-content;
+    transition: .8s linear;
+}
+
+.slider .slide .item{
+    width:800px;
+    height: 200px;
+    position: relative;
+    z-index: 3;
+    margin: 0px 20px;
+    padding: 20px 20px 20px;
+}
+.slider .slide .item::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(224, 224, 224);
+    transform: skewX(-10deg);
+    z-index: 0;
+}
+.slider .slide .item .circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2 ;
+}
+.slider .slide .item .circle img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: fill;
+}
+.slider .slide .item h2{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 25px;
+}
+.slider .slide .item p{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+/* footer */
+footer{
+    background-color: #A084CA;
+    height: 60px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+@media only screen and (max-width: 300px){
+    main.main{
+        background-size: 100% 100%;
+        padding: 10px;
+    }
+    .about .content h2{
+        margin-top: 10px;
+        width: 100%;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .about .content p{
+        width: 100%;
+        height: 150px;
+        overflow: hidden;
+    }
+    .choose div.d-flex .item, .services div.d-flex .item{
+        margin: 20px 0px;
+    }
+    .contact div.col-xl-6 input{
+        width: 100%;
+    }
+    .contact div.col-xl-6 button{
+        margin-bottom: 30px;
+    }
+    .slider{
+        width: 100%;
+        padding: 15px;
+    }
+    .slider  i.fa-chevron-right{
+        right: -15px;
+    }
+    .slider i{
+        z-index: 9999;
+    }
+    .slider .slide .item{
+        width: 200px;
+    }
+    .slider .slide .item .circle{
+        width: 80px;
+        height: 80px;
+        left: 57%;
+    }
+    .slider .slide .item p{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+}
+@media (min-width: 300px) and (max-width: 600px){
+    main.main{
+        background-size: 100% 100%;
+        padding: 10px;
+    }
+    .about .content h2{
+        margin-top: 10px;
+        width: 100%;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .about .content p{
+        width: 100%;
+        height: 150px;
+        overflow: hidden;
+    }
+    .choose div.d-flex .item, .services div.d-flex .item{
+        margin: 20px 0px;
+    }
+    .contact div.col-xl-6 input{
+        width: 100%;
+    }
+    .contact div.col-xl-6 button{
+        margin-bottom: 30px;
+    }
+    .slider{
+        width: 100%;
+        padding: 15px;
+    }
+    .slider  i.fa-chevron-right{
+        right: -15px;
+    }
+    .slider i{
+        z-index: 9999;
+    }
+    .slider .slide .item{
+        width: 300px;
+        margin: 0px 100px;
+    }
+    .slider .slide .item .circle{
+        width: 80px;
+        height: 80px;
+        left: 57%;
+    }
+    .slider .slide .item p{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+}
